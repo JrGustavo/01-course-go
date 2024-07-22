@@ -1,15 +1,12 @@
 package main
 
-import (
-	"fmt"
-	"runtime"
-)
+import "github.com/JrGustavo/01-course-go/files"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
 	fmt.Println(texto)
-	*/
+
 
 	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
 		fmt.Println("Esto no es  Windows, es ", os)
@@ -25,5 +22,13 @@ func main() {
 	default:
 		fmt.Printf("%s \n\n", os)
 	}
-
+	numero, texto := ejercicios.ConvNumerico("50")
+	fmt.Println(numero, texto)
+	teclado.IngresoNumeros()
+		iteraciones.Iterar()
+		fmt.Println(ejercicios.TabladeMultiplicar())
+		files.GrabaTabla()
+	    files.SumaTabla()
+	*/
+	files.LeoArchivo()
 }
