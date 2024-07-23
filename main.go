@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JrGustavo/01-course-go/files"
+import "github.com/JrGustavo/01-course-go/funciones"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -29,6 +29,10 @@ func main() {
 		fmt.Println(ejercicios.TabladeMultiplicar())
 		files.GrabaTabla()
 	    files.SumaTabla()
+	    files.LeoArchivo()
+		funciones.Calculos()
 	*/
-	files.LeoArchivo()
+
+	funciones.LlamarClosure()
+
 }
