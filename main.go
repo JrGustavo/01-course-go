@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JrGustavo/01-course-go/funciones"
+import "github.com/JrGustavo/01-course-go/arreglos_slices"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -31,8 +31,10 @@ func main() {
 	    files.SumaTabla()
 	    files.LeoArchivo()
 		funciones.Calculos()
+		funciones.LlamarClosure()
+		funciones.Exponencia(4)
 	*/
 
-	funciones.LlamarClosure()
+	arreglos_slices.MuestroAreglos()
 
 }
